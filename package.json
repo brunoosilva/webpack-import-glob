@@ -1,0 +1,33 @@
+{
+  "name": "import-glob-loader",
+  "version": "1.9.9",
+  "description": "ES6 import with glob patterns (preloader for Webpack)",
+  "license": "MIT",
+  "main": "index.js",
+  "author": {
+    "name": "Bruno Oliveira",
+    "url": "https://github.com/brunoosilva"
+  },
+  "keywords": [
+    "webpack",
+    "loader",
+    "glob",
+    "es6"
+  ],
+  "dependencies": {
+    "glob": "^5.0.13"
+  },
+  "devDependencies": {
+    "babel-core": "^6.0.0",
+    "babel-loader": "6.1.0",
+    "babel-preset-es2015": "^6.3.13",
+    "webpack": "^1.0.0"
+  },
+  "scripts": {
+    "test": "webpack --config example/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunoosilva/import-glob-loader"
+  }
+}
