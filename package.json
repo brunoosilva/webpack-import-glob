@@ -1,6 +1,6 @@
 {
   "name": "webpack-import-glob",
-  "version": "1.9.10",
+  "version": "2.0.0",
   "description": "ES6 import with glob patterns (preloader for Webpack)",
   "license": "MIT",
   "main": "index.js",
