@@ -1,6 +1,6 @@
 {
-  "name": "import-glob-loader",
-  "version": "1.9.9",
+  "name": "webpack-import-glob",
+  "version": "1.9.10",
   "description": "ES6 import with glob patterns (preloader for Webpack)",
   "license": "MIT",
   "main": "index.js",
@@ -28,6 +28,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brunoosilva/import-glob-loader"
+    "url": "git+https://github.com/brunoosilva/webpack-import-glob"
   }
 }
