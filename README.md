@@ -1,9 +1,11 @@
-[![Build Status](https://travis-ci.org/terpiljenya/import-glob.svg)](https://travis-ci.org/terpiljenya/import-glob)
-[![npm version](https://badge.fury.io/js/import-glob.svg)](https://badge.fury.io/js/import-glob)
-# import-glob
+[![Build Status](https://travis-ci.org/brunoosilva/webpack-import-glob.svg)](https://travis-ci.org/brunoosilva/webpack-import-glob)
+[![npm version](https://badge.fury.io/js/webpack-import-glob.svg)](https://badge.fury.io/js/webpack-import-glob)
+# webpack-import-glob
 ES6 import with glob patterns (preloader for Webpack)
 
 Expands globbing patterns for ES6 `import` statements.
+
+// Forked of https://github.com/terpiljenya/import-glob
 
 ---
 ```js
@@ -63,6 +65,14 @@ You can use it one of two ways, the recommended way is to use it as a preloader
     }
     ]
   }
+}
+
+// or
+
+{
+  test: /\.js$/,
+  enforce: 'pre',
+  loader: 'import-glob',
 }
 ```
 
