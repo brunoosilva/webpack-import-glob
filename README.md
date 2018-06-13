@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/brunoosilva/webpack-import-glob.svg)](https://travis-ci.org/brunoosilva/webpack-import-glob)
+[![Build Status](https://api.travis-ci.org/brunoosilva/webpack-import-glob.svg)](https://travis-ci.org/brunoosilva/webpack-import-glob)
 [![npm version](https://badge.fury.io/js/webpack-import-glob.svg)](https://badge.fury.io/js/webpack-import-glob)
 # webpack-import-glob
 ES6 import with glob patterns (preloader for Webpack)
