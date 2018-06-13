@@ -46,7 +46,7 @@ Expands into
 
 ## Install
 ```sh
-npm install import-glob --save-dev
+yarn add webpack-import-glob -D
 ```
 
 ## Usage
@@ -57,11 +57,11 @@ You can use it one of two ways, the recommended way is to use it as a preloader
   module: {
     preloaders: [{
       test: /\.js/,
-      loader: 'import-glob'
+      loader: 'webpack-import-glob'
     },
     {
       test: /\.scss/,
-      loader: 'import-glob'
+      loader: 'webpack-import-glob'
     }
     ]
   }
@@ -72,11 +72,11 @@ You can use it one of two ways, the recommended way is to use it as a preloader
 {
   test: /\.js$/,
   enforce: 'pre',
-  loader: 'import-glob',
+  loader: 'webpack-import-glob',
 }
 ```
 
 Alternatively you can use it as a chained loader
 ```js
-require('!import-glob!foo/bar.js')
+require('!webpack-import-glob!foo/bar.js')
 ```
